@@ -17,6 +17,7 @@
 .LICENSEURI https://github.com/tomstryhn/PowerShell/blob/main/LICENSE
 
 .PROJECTURI https://github.com/tomstryhn/PowerShell/ActiveDirectory/New-RandomPassword/
+
 #>
 
 function New-RandomPassword {
