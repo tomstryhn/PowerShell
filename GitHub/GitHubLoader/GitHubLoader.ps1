@@ -7,6 +7,6 @@ $sourceList = (Invoke-WebRequest -Uri $sourceUrl -UseBasicParsing).Content | Con
 # For each of the functions in the sourcelist
 foreach($script in $sourceList) {
 
-    # Get the code directly form the sourcecode url using the Invoke-WebRequest and then 'loads' the function into the session using Invoke-Expression
+    # Get the code directly from the sourcecode url, using the Invoke-WebRequest, and then 'load' the function into the session using Invoke-Expression
     Invoke-Expression -Command ((Invoke-WebRequest -Uri $script.sourcecode -UseBasicParsing).Content)
 }
