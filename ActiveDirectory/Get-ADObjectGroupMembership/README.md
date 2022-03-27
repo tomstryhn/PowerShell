@@ -16,7 +16,7 @@ Returns all unique groupmemberships of an object, also nested
 
 ## Background
 
-More and more security is introduced into environments, and more and more often your access depends on the groupmemberships you have in the Active Direcory. But from time to time it can become very hard to determine which groups are nested into which, and in ie. a tiering model, the denyrights are often also defined by groupmemberships, so to make the backtracking a little easier I made this script help you get an overview of which groups an ADObject (Group, User or Computer-object) is directly or 'in-directly' (nested) member of.
+More and more security is introduced into environments, and more and more often your access depends on the groupmemberships you have in the Active Direcory. But from time to time it can become very hard to determine which groups are nested into which, and in ie. a tiering model, the denyrights are often also defined by groupmemberships, so to make the backtracking a little easier I made this script, to help get an overview of which groups an ADObject (Group, User or Computer-object) is directly or 'in-directly' (nested) member of.
 
 ## Examples
 
