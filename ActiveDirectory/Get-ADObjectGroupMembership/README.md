@@ -53,12 +53,14 @@ When using the `Get-ADObjectGroupMembership`, it often will require a few steps 
 <#
 .SYNOPSIS
     Lists all the unique groupmemberships and nested groupmemberships of an ADObject
+    
 .DESCRIPTION
     Lists all the unique groupmemberships and nested groupmemberships of an ADObject
     and outputs them, builtin check to avoid loops.
  
 .PARAMETER DistinguishedName
     The DistinguishedName of the Object, of which you want to list the memberships.
+    
 .EXAMPLE
     PS C:\> Get-ADObjectGroupMembership -DistinguishedName 'OU=TestOU,DC=Dev,DC=local'
     DistinguishedName : CN=TestGroup,OU=Groups,DC=Dev,DC=local
@@ -77,14 +79,18 @@ When using the `Get-ADObjectGroupMembership`, it often will require a few steps 
     ObjectGUID        : d22f2094-8f7f-4f4c-b953-6becc2f1c822
     SamAccountName    : TestGroup
     SID               : S-1-5-21-1234567890-1234567890-1234567890-23456
+    
 .NOTES
     FUNCTION: Get-ADObjectGroupMembership
     AUTHOR:   Tom Stryhn
     GITHUB:   https://github.com/tomstryhn/
+    
 .INPUTS
     System.String
+    
 .OUTPUTS
     Microsoft.ActiveDirectory.Management.ADGroup
+    
 #>
 
 ```
