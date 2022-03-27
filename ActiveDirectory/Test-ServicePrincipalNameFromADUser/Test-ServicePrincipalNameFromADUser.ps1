@@ -2,7 +2,7 @@
 
 <#PSScriptInfo
 
-.DESCRIPTION Returns all unique groupmemberships of an object, also nested
+.DESCRIPTION Gets the ServicePrincipalName from ADUser Objects, and validates this
 
 .VERSION 1.0.0.0
 
