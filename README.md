@@ -4,3 +4,5 @@ This is a collection of PowerShell scripts for various tasks, most of them are m
 ## Sections
 ### [ActiveDirectory](./ActiveDirectory/)
 Scripts related to Active Directory
+### [GitHub](./GitHub/)
+Scripts related to GitHub
