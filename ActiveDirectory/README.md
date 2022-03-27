@@ -7,4 +7,4 @@ Used for creating an empty UserRightsAssignment GPO
 ### [New-RandomPassword](./New-RandomPassword/)
 Returns a random generated password
 ### [Test-ServicePrincipalNameFromADUser](./Test-ServicePrincipalNameFromADUser/)
-Test the ServicePrincipalNames of an ADUser
+Test the ServicePrincipalNames of an ADUser (ServiceAccount)
