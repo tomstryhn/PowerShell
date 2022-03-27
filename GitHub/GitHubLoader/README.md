@@ -18,4 +18,4 @@ Invoke-Expression -Command $remoteCode
 
 ```
 
-This will load the somewhat simple PowerShell script GitHubLoader.ps1, and by using the [sources.json](https://raw.githubusercontent.com/tomstryhn/PowerShell/main/GitHub/GitHubLoader/sources.json), it will load all the functions one by one. (Assuming i remember to update the sources. :)
+This will load the somewhat simple PowerShell script GitHubLoader.ps1, and by using the [sources.json](https://raw.githubusercontent.com/tomstryhn/PowerShell/main/GitHub/GitHubLoader/sources.json), it will load all the functions one by one. (Assuming I remember to update the sources. :)
