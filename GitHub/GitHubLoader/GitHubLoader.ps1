@@ -1,4 +1,4 @@
-$sourceUrl  = 'https://raw.githubusercontent.com/tomstryhn/PowerShell/main/GitHub/sources.json'
+$sourceUrl  = 'https://raw.githubusercontent.com/tomstryhn/PowerShell/main/GitHub/GitHubLoader/sources.json'
 $sourceList = (Invoke-WebRequest -Uri $sourceUrl -UseBasicParsing).Content | ConvertFrom-Json
 
 foreach($script in $sourceList) {
