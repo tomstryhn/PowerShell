@@ -1,6 +1,6 @@
 # GitHubLoader.ps1
 
-Simple way to load all the scripts in the PowerShell repo of my GitHub into the current PowerShell session
+Simple way to load all the scripts in the PowerShell repo of my GitHub into the current PowerShell session, but be aware, by loading the scripts this way, the `#Requires` will not be validated, so you will have to make sure that the needed modules, ie. AvtiveDirectory is available in the session, which the scripts is loaded into. 
 
 ## Table of Content
 
