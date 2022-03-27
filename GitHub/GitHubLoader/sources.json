@@ -10,5 +10,12 @@
   {
     "function": "New-RandomPassword",
     "sourcecode": "https://raw.githubusercontent.com/tomstryhn/PowerShell/main/ActiveDirectory/New-RandomPassword/New-RandomPassword.ps1"
+  },
+  {
+    "function": "Test-ServicePrincipalNameFromADUser",
+    "sourcecode": "https://raw.githubusercontent.com/tomstryhn/PowerShell/main/ActiveDirectory/Test-ServicePrincipalNameFromADUser/Test-ServicePrincipalNameFromADUser.ps1"
   }
 ]
+
+
+
