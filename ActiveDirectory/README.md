@@ -6,3 +6,5 @@ Returns all unique groupmemberships of an object, also nested
 Used for creating an empty UserRightsAssignment GPO
 ### [New-RandomPassword](./New-RandomPassword/)
 Returns a random generated password
+### [Test-ServicePrincipalNameFromADUser](./Test-ServicePrincipalNameFromADUser/)
+Test the ServicePrincipalNames of an ADUser
