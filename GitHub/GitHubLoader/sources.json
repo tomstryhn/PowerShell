@@ -4,6 +4,10 @@
     "sourcecode": "https://raw.githubusercontent.com/tomstryhn/PowerShell/main/ActiveDirectory/Get-ADObjectGroupMembership/Get-ADObjectGroupMembership.ps1"
   },
   {
+    "function": "Get-UnresolvableSIDsFromADObjectACLAccessRules",
+    "sourcecode": "https://raw.githubusercontent.com/tomstryhn/PowerShell/main/ActiveDirectory/Get-UnresolvableSIDsFromADObjectACLAccessRules/Get-UnresolvableSIDsFromADObjectACLAccessRules.ps1"
+  },
+  {
     "function": "New-DummyComputerURAGPO",
     "sourcecode": "https://raw.githubusercontent.com/tomstryhn/PowerShell/main/ActiveDirectory/New-DummyComputerURAGPO/New-DummyComputerURAGPO.ps1"
   },
