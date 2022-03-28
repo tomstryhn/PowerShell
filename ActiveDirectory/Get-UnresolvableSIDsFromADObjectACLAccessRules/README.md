@@ -20,7 +20,7 @@ Lists all the unique Unresolvable SID(s) in the ACL Access Rules from an ADObjec
 
 ## Examples
 
-The `Get-UnresolvableSIDsFromADObjectACLAccessRules` can be used with single ADObjects, but it's really designed to take input directly from the pipeline, which is also why the 'statistics' in `-Verbose`-mode have been added. In the below example you can see one way to use it.
+The `Get-UnresolvableSIDsFromADObjectACLAccessRules` can be used with single ADObjects, but it's really designed to take input directly from the pipeline, which is also why the 'statistics' in `-Verbose`-mode have been added. In the below example you can see one way to use it. A little note, you _can_ pipe all your ADObjects into the function at once, but you really __shouldn't__, since it can take ages, and since the function is not perfect yet, it will not tell you where it failed. 
 
 ```PowerShell
 
