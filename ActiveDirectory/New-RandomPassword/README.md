@@ -1,5 +1,5 @@
 
-# New-RandomPassword.ps1 PowerShell Script
+# New-RandomPassword
 
 Returns a random password
 
