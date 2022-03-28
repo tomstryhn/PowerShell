@@ -8,6 +8,8 @@ Scripts related to Active Directory, Security and Operation
 ## Scripts
 ### [Get-ADObjectGroupMembership](./Get-ADObjectGroupMembership/)
 Returns all unique groupmemberships of an object, also nested
+### [Get-UnresolvableSIDsFromADObjectACLAccessRules](./Get-UnresolvableSIDsFromADObjectACLAccessRules/)
+Lists all the unique Unresolvable SID(s) in the ACL Access Rules from an ADObject.
 ### [New-DummyComputerURAGPO](./New-DummyComputerURAGPO/)
 Used for creating an empty UserRightsAssignment GPO
 ### [New-RandomPassword](./New-RandomPassword/)
