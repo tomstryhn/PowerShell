@@ -1,6 +1,6 @@
 # Get-UnresolvableSIDsFromADObjectACLAccessRules
 
-Lists all the unique Unresolvable SID(s) in the ACL Access Rules from an ADObject, using -Verbose will additionally output statistics, usefull when using pipeline input to the function.
+Lists all the unique Unresolvable SID(s) in the ACL Access Rules from an ADObject, using -Verbose will additionally output statistics, usefull when using pipeline input.
 
 ## Table of Content
 
