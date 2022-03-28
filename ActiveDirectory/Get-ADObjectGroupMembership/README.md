@@ -1,4 +1,4 @@
-# Get-ADObjectGroupMembership.ps1 PowerShell Script
+# Get-ADObjectGroupMembership
 
 Returns all unique groupmemberships of an object, also nested
 
