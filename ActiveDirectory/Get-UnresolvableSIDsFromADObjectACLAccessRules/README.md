@@ -26,13 +26,14 @@ The `Get-UnresolvableSIDsFromADObjectACLAccessRules` can be used with single ADO
 
 PS C:\> Get-ADObject -SearchBase 'OU=TestOU,DC=Dev,DC=local' -Filter * | Get-UnresolvableSIDsFromADObjectACLAccessRules -Verbose
 
-VERBOSE: Total ADObject(s) processed:               [              174 ]
-VERBOSE: ACL Access Rules Processed:                [             6358 ]
-VERBOSE: ACL Access Rules with Unresolvable SID(s): [               13 ]
-
 DistinguishedName                              UnresolvableSIDs                              
 -----------------                              ----------------                              
 CN=TestUser,OU=Users,OU=TestOU,DC=dev,DC=local S-1-5-21-1234567890-1234567890-1234567890-12345
+CN=UserTest,OU=Users,OU=TestOU,DC=dev,DC=local S-1-5-21-1234567890-1234567890-1234567890-12543
+
+VERBOSE: Total ADObject(s) processed:               [              174 ]
+VERBOSE: ACL Access Rules Processed:                [            26358 ]
+VERBOSE: ACL Access Rules with Unresolvable SID(s): [               23 ]
 
 ```
 
