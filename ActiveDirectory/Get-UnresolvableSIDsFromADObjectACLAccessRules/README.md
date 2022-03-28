@@ -54,22 +54,22 @@ VERBOSE: ACL Access Rules with Unresolvable SID(s): [               23 ]
     The DistinguishedName of the targeted ADObject
 
 .EXAMPLE
-PS C:\> Get-UnresolvableSIDsFromADObjectACLAccessRules -DistinguishedName 'OU=TestOU,DC=Dev,DC=local'
+    PS C:\> Get-UnresolvableSIDsFromADObjectACLAccessRules -DistinguishedName 'OU=TestOU,DC=Dev,DC=local'
 
-DistinguishedName         UnresolvableSIDs                              
------------------         ----------------                              
-OU=TestOU,DC=Dev,DC=local S-1-5-21-1234567890-1234567890-1234567890-12345
+    DistinguishedName         UnresolvableSIDs                              
+    -----------------         ----------------                              
+    OU=TestOU,DC=Dev,DC=local S-1-5-21-1234567890-1234567890-1234567890-12345
 
 .EXAMPLE
-PS C:\> Get-UnresolvableSIDsFromADObjectACLAccessRules -DistinguishedName 'OU=TestOU,DC=Dev,DC=local' -Verbose
+    PS C:\> Get-UnresolvableSIDsFromADObjectACLAccessRules -DistinguishedName 'OU=TestOU,DC=Dev,DC=local' -Verbose
 
-VERBOSE: Total ADObject(s) processed:               [                1 ]
-VERBOSE: ACL Access Rules Processed:                [               25 ]
-VERBOSE: ACL Access Rules with Unresolvable SID(s): [                2 ]
+    VERBOSE: Total ADObject(s) processed:               [                1 ]
+    VERBOSE: ACL Access Rules Processed:                [               25 ]
+    VERBOSE: ACL Access Rules with Unresolvable SID(s): [                2 ]
 
-DistinguishedName         UnresolvableSIDs                              
------------------         ----------------                              
-OU=TestOU,DC=Dev,DC=local S-1-5-21-1234567890-1234567890-1234567890-12345
+    DistinguishedName         UnresolvableSIDs                              
+    -----------------         ----------------                              
+    OU=TestOU,DC=Dev,DC=local S-1-5-21-1234567890-1234567890-1234567890-12345
 
 .NOTES
     FUNCTION: Get-UnresolvableSIDsFromADObjectACLAccessRules
