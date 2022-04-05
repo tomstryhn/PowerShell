@@ -193,6 +193,7 @@
 "vmicvmsession";"Hyper-V PowerShell Direct Service";"vmicvmsession"
 "vmicvss";"Hyper-V Volume Shadow Copy Requestor";"vmicvss"
 "VMTools";"VMware Tools";"VMTools"
+"VMUSBArbService";"VMware USB Arbitration Service";"VMUSBArbService"
 "vmvss";"VMware Snapshot Provider";"vmvss"
 "VSS";"Volume Shadow Copy";"VSS"
 "W32Time";"Windows Time";"W32Time"
