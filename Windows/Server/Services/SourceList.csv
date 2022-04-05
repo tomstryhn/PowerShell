@@ -1,5 +1,6 @@
 #TYPE Selected.System.Management.Automation.PSCustomObject
 "Name";"DisplayName";"ServiceName"
+"AdtAgent";"Microsoft Monitoring Agent Audit Forwarding";"AdtAgent"
 "AeLookupSvc";"Application Experience";"AeLookupSvc"
 "AJRouter";"AllJoyn Router Service";"AJRouter"
 "ALG";"Application Layer Gateway Service";"ALG"
