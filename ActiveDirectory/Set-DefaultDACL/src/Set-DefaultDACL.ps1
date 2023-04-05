@@ -4,7 +4,7 @@
 
 .DESCRIPTION Sets the Default Discretionary Access Control List
 
-.VERSION 0.1.0.0
+.VERSION 0.1.1.0
 
 .GUID 9ee392e9-5c94-4dfc-abe8-899b5002482e
 
@@ -35,11 +35,11 @@ function Set-DefaultDACL {
     
     begin {
         $rootDSE                    = [adsi]"LDAP://RootDSE"
-        $computerString             = (Get-ADObject -Filter { (Name -eq 'Computer') }               -SearchBase ($RootDSE.schemaNamingContext[0]) -Properties defaultSecurityDescriptor).defaultSecurityDescriptor
-        $containerString            = (Get-ADObject -Filter { (Name -eq 'Container') }              -SearchBase ($RootDSE.schemaNamingContext[0]) -Properties defaultSecurityDescriptor).defaultSecurityDescriptor
-        $groupString                = (Get-ADObject -Filter { (Name -eq 'Group') }                  -SearchBase ($RootDSE.schemaNamingContext[0]) -Properties defaultSecurityDescriptor).defaultSecurityDescriptor
-        $organizationalUnitString   = (Get-ADObject -Filter { (Name -eq 'Organizational-Unit') }    -SearchBase ($RootDSE.schemaNamingContext[0]) -Properties defaultSecurityDescriptor).defaultSecurityDescriptor
-        $userString                 = (Get-ADObject -Filter { (Name -eq 'User') }                   -SearchBase ($RootDSE.schemaNamingContext[0]) -Properties defaultSecurityDescriptor).defaultSecurityDescriptor
+        $computerString             = (Get-ADObject -Filter { (lDAPDisplayName -eq 'computer') }               -SearchBase ($RootDSE.schemaNamingContext[0]) -Properties defaultSecurityDescriptor).defaultSecurityDescriptor
+        $containerString            = (Get-ADObject -Filter { (lDAPDisplayName -eq 'container') }              -SearchBase ($RootDSE.schemaNamingContext[0]) -Properties defaultSecurityDescriptor).defaultSecurityDescriptor
+        $groupString                = (Get-ADObject -Filter { (lDAPDisplayName -eq 'group') }                  -SearchBase ($RootDSE.schemaNamingContext[0]) -Properties defaultSecurityDescriptor).defaultSecurityDescriptor
+        $organizationalUnitString   = (Get-ADObject -Filter { (lDAPDisplayName -eq 'organizationalUnit') }    -SearchBase ($RootDSE.schemaNamingContext[0]) -Properties defaultSecurityDescriptor).defaultSecurityDescriptor
+        $userString                 = (Get-ADObject -Filter { (lDAPDisplayName -eq 'user') }                   -SearchBase ($RootDSE.schemaNamingContext[0]) -Properties defaultSecurityDescriptor).defaultSecurityDescriptor
     }
     
     process {
