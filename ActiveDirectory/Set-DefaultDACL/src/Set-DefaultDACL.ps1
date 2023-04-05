@@ -19,6 +19,7 @@
 .PROJECTURI https://github.com/tomstryhn/PowerShell
 
 #>
+
 function Set-DefaultDACL {
 
     [CmdletBinding()]
