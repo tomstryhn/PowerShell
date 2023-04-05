@@ -38,7 +38,7 @@ function Set-DefaultDACL {
         $computerString             = (Get-ADObject -Filter { (lDAPDisplayName -eq 'computer') }               -SearchBase ($RootDSE.schemaNamingContext[0]) -Properties defaultSecurityDescriptor).defaultSecurityDescriptor
         $containerString            = (Get-ADObject -Filter { (lDAPDisplayName -eq 'container') }              -SearchBase ($RootDSE.schemaNamingContext[0]) -Properties defaultSecurityDescriptor).defaultSecurityDescriptor
         $groupString                = (Get-ADObject -Filter { (lDAPDisplayName -eq 'group') }                  -SearchBase ($RootDSE.schemaNamingContext[0]) -Properties defaultSecurityDescriptor).defaultSecurityDescriptor
-        $organizationalUnitString   = (Get-ADObject -Filter { (lDAPDisplayName -eq 'organizationalUnit') }    -SearchBase ($RootDSE.schemaNamingContext[0]) -Properties defaultSecurityDescriptor).defaultSecurityDescriptor
+        $organizationalUnitString   = (Get-ADObject -Filter { (lDAPDisplayName -eq 'organizationalUnit') }     -SearchBase ($RootDSE.schemaNamingContext[0]) -Properties defaultSecurityDescriptor).defaultSecurityDescriptor
         $userString                 = (Get-ADObject -Filter { (lDAPDisplayName -eq 'user') }                   -SearchBase ($RootDSE.schemaNamingContext[0]) -Properties defaultSecurityDescriptor).defaultSecurityDescriptor
     }
     
