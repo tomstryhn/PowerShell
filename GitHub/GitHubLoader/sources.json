@@ -19,6 +19,10 @@
     "function": "Test-ServicePrincipalNameFromADUser",
     "sourcecode": "https://raw.githubusercontent.com/tomstryhn/PowerShell/main/ActiveDirectory/Test-ServicePrincipalNameFromADUser/Test-ServicePrincipalNameFromADUser.ps1"
   }
+  {
+    "function": "Set-DefaultDACL",
+    "sourcecode": "https://raw.githubusercontent.com/tomstryhn/PowerShell/main/ActiveDirectory/Set-DefaultDACL/src/Set-DefaultDACL.ps1"
+  }
 ]
 
 
