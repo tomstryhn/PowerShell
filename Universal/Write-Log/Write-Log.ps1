@@ -16,11 +16,11 @@
 
 .LICENSEURI https://github.com/tomstryhn/PowerShell/blob/main/LICENSE
 
-.PROJECTURI https://github.com/tomstryhn/PowerShell/Universal/Write-LogEvent/
+.PROJECTURI https://github.com/tomstryhn/PowerShell/Universal/Write-Log/
 
 #>
 
-function Write-LogEvent {
+function Write-Log {
     [CmdletBinding()]
     param (
         # The Message to be written to the LogFile

@@ -16,11 +16,11 @@
 
 .LICENSEURI https://github.com/tomstryhn/PowerShell/blob/main/LICENSE
 
-.PROJECTURI https://github.com/tomstryhn/PowerShell/Universal/Get-LogEvent/
+.PROJECTURI https://github.com/tomstryhn/PowerShell/Universal/Get-Log/
 
 #>
 
-function Get-LogEvent {
+function Get-Log {
     [CmdletBinding()]
     param (
         # The Path to the actual LogFile
