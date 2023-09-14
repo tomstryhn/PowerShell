@@ -58,7 +58,7 @@ function Write-Log {
         $timeStamp  = Get-Date -Format 'yyyy-MM-dd HH:mm:ss.fff'
 
         # The String to be added for the Log
-        $logEntry   = $timeStamp + "`t" + '[ ' + $LogLevel + ' ]' + "`t" + $Message
+        $logEntry   = $timeStamp + "`t" + $LogLevel + "`t" + $Message
 
         # Writing the LogFile
         $logEntry | Out-File -Append -FilePath $LogPath
