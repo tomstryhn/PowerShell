@@ -1,0 +1,14 @@
+{
+    "Name": "Microsoft SQL Server - HTTPS - For HTTPS Endpoint or Analysis Services HTTPS (TCP-In)",
+    "DisplayName": "Microsoft SQL Server - HTTPS - For HTTPS Endpoint or Analysis Services HTTPS (TCP-In)",
+    "Description": "Used for an HTTPS connection through a URL. HTTPS is an HTTP connection that uses Transport Layer Security (TLS), previously known as Secure Sockets Layer (SSL).",
+    "Direction": "Inbound",
+    "Action": "Allow",
+    "Enabled": 1,
+    "Protocol": "TCP",
+    "LocalPort": "443",
+    "EdgeTraversalPolicy": "Block",
+    "Profile": "Domain",
+    "Group": "Microsoft SQL Server",
+    "InterfaceType": "Any"
+}

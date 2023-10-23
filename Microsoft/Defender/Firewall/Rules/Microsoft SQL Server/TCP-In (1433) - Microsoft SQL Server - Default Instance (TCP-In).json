@@ -1,0 +1,14 @@
+{
+    "Name": "Microsoft SQL Server - Default Instance (TCP-In)",
+    "DisplayName": "Microsoft SQL Server - Default Instance (TCP-In)",
+    "Description": "The most common port allowed through the firewall. It applies to routine connections to the default installation of the Database Engine, or a named instance that is the only instance running on the computer.",
+    "Direction": "Inbound",
+    "Action": "Allow",
+    "Enabled": 1,
+    "Protocol": "TCP",
+    "LocalPort": "1433",
+    "EdgeTraversalPolicy": "Block",
+    "Profile": "Domain",
+    "Group": "Microsoft SQL Server",
+    "InterfaceType": "Any"
+}

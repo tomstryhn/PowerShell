@@ -1,0 +1,14 @@
+{
+    "Name": "Microsoft SQL Server - Dedicated Admin Connection (TCP-In)",
+    "DisplayName": "Microsoft SQL Server - Dedicated Admin Connection (TCP-In)",
+    "Description": "TCP port 1434 for the default instance. Other ports are used for named instances. Check the error log for the port number.",
+    "Direction": "Inbound",
+    "Action": "Allow",
+    "Enabled": 1,
+    "Protocol": "TCP",
+    "LocalPort": "1434",
+    "EdgeTraversalPolicy": "Block",
+    "Profile": "Domain",
+    "Group": "Microsoft SQL Server",
+    "InterfaceType": "Any"
+}

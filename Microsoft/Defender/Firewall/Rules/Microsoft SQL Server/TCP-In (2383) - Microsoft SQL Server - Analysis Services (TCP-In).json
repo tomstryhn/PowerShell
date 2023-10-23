@@ -1,0 +1,14 @@
+{
+    "Name": "Microsoft SQL Server - Analysis Services (TCP-In)",
+    "DisplayName": "Microsoft SQL Server - Analysis Services (TCP-In)",
+    "Description": "The standard port for the default instance of Analysis Services",
+    "Direction": "Inbound",
+    "Action": "Allow",
+    "Enabled": 1,
+    "Protocol": "TCP",
+    "LocalPort": "2383",
+    "EdgeTraversalPolicy": "Block",
+    "Profile": "Domain",
+    "Group": "Microsoft SQL Server",
+    "InterfaceType": "Any"
+}

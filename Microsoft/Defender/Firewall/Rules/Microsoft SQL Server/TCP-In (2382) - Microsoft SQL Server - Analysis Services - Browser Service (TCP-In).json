@@ -1,0 +1,14 @@
+{
+    "Name": "Microsoft SQL Server - Analysis Services - Browser Service (TCP-In)",
+    "DisplayName": "Microsoft SQL Server - Analysis Services - Browser Service (TCP-In)",
+    "Description": "Client connection requests for a named instance of Analysis Services that don't specify a port number are directed to port 2382, the port on which SQL Server Browser listens. SQL Server Browser then redirects the request to the port that the named instance uses.",
+    "Direction": "Inbound",
+    "Action": "Allow",
+    "Enabled": 1,
+    "Protocol": "TCP",
+    "LocalPort": "2382",
+    "EdgeTraversalPolicy": "Block",
+    "Profile": "Domain",
+    "Group": "Microsoft SQL Server",
+    "InterfaceType": "Any"
+}

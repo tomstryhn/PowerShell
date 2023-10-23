@@ -1,0 +1,14 @@
+{
+    "Name": "Microsoft SQL Server - Browser Service (UDP-In)",
+    "DisplayName": "Microsoft SQL Server - Browser Service (UDP-In)",
+    "Description": "The SQL Server browser service listens for incoming connections to a named instance. The service provides the client the TCP port number that corresponds to that named instance. Normally the SQL Server Browser service is started whenever named instances of the Database Engine are used. The SQL Server Browser service isn't required if the client is configured to connect to the specific port of the named instance.",
+    "Direction": "Inbound",
+    "Action": "Allow",
+    "Enabled": 1,
+    "Protocol": "UDP",
+    "LocalPort": "1434",
+    "EdgeTraversalPolicy": "Block",
+    "Profile": "Domain",
+    "Group": "Microsoft SQL Server",
+    "InterfaceType": "Any"
+}
