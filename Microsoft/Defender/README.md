@@ -2,4 +2,4 @@
 Microsoft Defender
 # Table of Contents
 
-  - [Firewall](#firewall)
+  - [Firewall](./firewall/)
