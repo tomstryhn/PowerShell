@@ -2,4 +2,4 @@
 Microsoft Defender Firewall
 # Table of Contents
 
-  - [Rules](./rules/)
+  - [Rules](./Rules/)

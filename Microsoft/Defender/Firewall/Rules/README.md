@@ -2,4 +2,4 @@
 Microsoft Defender Firewall Rules
 # Table of Contents
 
-  - [Microsoft SQL Server](./microsoft-sql-server/)
+  - [Microsoft SQL Server](./Microsoft SQL Server/)
