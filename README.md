@@ -6,5 +6,7 @@ But feel free to reach out...
 Scripts related to Active Directory
 ### [GitHub](./GitHub/)
 Scripts related to GitHub
+### [Microsoft](./Microsoft/)
+Scripts related to different Microsoft Products
 ### [Universal](./Universal/)
 Scripts not related to specific products or vendors
