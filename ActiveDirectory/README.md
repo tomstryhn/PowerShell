@@ -12,6 +12,8 @@ Returns all unique groupmemberships of an object, also nested
 Lists all the unique Unresolvable SID(s) in the ACL Access Rules from an ADObject.
 #### [New-DummyComputerURAGPO](./New-DummyComputerURAGPO/)
 Used for creating an empty UserRightsAssignment GPO
+#### [Get-GPOOverview](./Get-GPOOverview/)
+Retrieves information about Group Policy Objects (GPOs) and their links.
 #### [New-RandomPassword](./New-RandomPassword/)
 Returns a random generated password
 #### [Test-ServicePrincipalNameFromADUser](./Test-ServicePrincipalNameFromADUser/)
