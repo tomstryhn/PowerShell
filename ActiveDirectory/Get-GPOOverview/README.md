@@ -27,7 +27,7 @@ Invoke-Expression -Command $remoteCode
 ## Examples
 For the easiest overview:
 ```PowerShell
-  PS C:\> Get-GPOOverview | Sort-Object Name | Format-Table -AutoSize
+Get-GPOOverview | Sort-Object Name | Format-Table -AutoSize
 ```
 ## Builtin Help
 ```PowerShell
