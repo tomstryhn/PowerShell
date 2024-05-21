@@ -4,6 +4,7 @@ Retrieves information about Group Policy Objects (GPOs) and their links.
   - [Version Changes](#version-changes)
   - [Purpose](#purpose)
   - [Key Benefits](#key-benefits)
+  - [Quickload](#quickload)
   - [Examples](#examples)
   - [Builtin Help](#builtin-help)
 ## Version Changes
